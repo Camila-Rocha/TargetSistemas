@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DistribuidoraMensal/1.0.0": {
+        "dependencies": {
+          "TestaException": "1.0.0"
+        },
+        "runtime": {
+          "DistribuidoraMensal.dll": {}
+        }
+      },
+      "TestaException/1.0.0": {
+        "runtime": {
+          "TestaException.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DistribuidoraMensal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestaException/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

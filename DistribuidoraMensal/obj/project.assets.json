@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "TestaException/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TestaException.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestaException.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestaException/1.0.0": {
+      "type": "project",
+      "path": "../TestaException/TestaException.csproj",
+      "msbuildProject": "../TestaException/TestaException.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "TestaException >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\stude\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\stude\\OneDrive\\Área de Trabalho\\projetos\\programas C#\\TesteTargetSistemas\\DistribuidoraMensal\\DistribuidoraMensal.csproj",
+      "projectName": "DistribuidoraMensal",
+      "projectPath": "C:\\Users\\stude\\OneDrive\\Área de Trabalho\\projetos\\programas C#\\TesteTargetSistemas\\DistribuidoraMensal\\DistribuidoraMensal.csproj",
+      "packagesPath": "C:\\Users\\stude\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stude\\OneDrive\\Área de Trabalho\\projetos\\programas C#\\TesteTargetSistemas\\DistribuidoraMensal\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\stude\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\stude\\OneDrive\\Área de Trabalho\\projetos\\programas C#\\TesteTargetSistemas\\TestaException\\TestaException.csproj": {
+              "projectPath": "C:\\Users\\stude\\OneDrive\\Área de Trabalho\\projetos\\programas C#\\TesteTargetSistemas\\TestaException\\TestaException.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

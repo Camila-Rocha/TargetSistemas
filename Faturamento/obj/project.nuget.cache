@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yR0hpB1lItmdh990eHS4qUcDIBXM3dx3EKxhxqfAKqtII7iravpBnZuODMN3ugHziJoCJhoyCwfICbs/WWY28A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stude\\OneDrive\\Área de Trabalho\\projetos\\programas C#\\TesteTargetSistemas\\Faturamento\\DistribuidoraDiaria.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stude\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

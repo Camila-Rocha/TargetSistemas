@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenciaFibonacci", "TesteTargetSistemas\SequenciaFibonacci.csproj", "{FB72872A-A179-49EC-B9AB-60A80FD5A8FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistribuidoraDiaria", "Faturamento\DistribuidoraDiaria.csproj", "{FD55BCE2-03B2-401C-98B1-26D40CEF00C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistribuidoraMensal", "DistribuidoraMensal\DistribuidoraMensal.csproj", "{3EAB02E7-6B21-4C44-B27E-3C1A93CC7436}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{979FE2DE-7166-4D64-9EDB-DEE4194808CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaException", "TestaException\TestaException.csproj", "{4E4A5B72-514B-4250-A3A6-F826202F9DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversaoDeCaracteres", "InversaoDeCaracteres\InversaoDeCaracteres.csproj", "{21337E31-F855-4C79-BD4E-FE87DFD801F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB72872A-A179-49EC-B9AB-60A80FD5A8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB72872A-A179-49EC-B9AB-60A80FD5A8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB72872A-A179-49EC-B9AB-60A80FD5A8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB72872A-A179-49EC-B9AB-60A80FD5A8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD55BCE2-03B2-401C-98B1-26D40CEF00C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD55BCE2-03B2-401C-98B1-26D40CEF00C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD55BCE2-03B2-401C-98B1-26D40CEF00C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD55BCE2-03B2-401C-98B1-26D40CEF00C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAB02E7-6B21-4C44-B27E-3C1A93CC7436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAB02E7-6B21-4C44-B27E-3C1A93CC7436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAB02E7-6B21-4C44-B27E-3C1A93CC7436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAB02E7-6B21-4C44-B27E-3C1A93CC7436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4A5B72-514B-4250-A3A6-F826202F9DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4A5B72-514B-4250-A3A6-F826202F9DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4A5B72-514B-4250-A3A6-F826202F9DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4A5B72-514B-4250-A3A6-F826202F9DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21337E31-F855-4C79-BD4E-FE87DFD801F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21337E31-F855-4C79-BD4E-FE87DFD801F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21337E31-F855-4C79-BD4E-FE87DFD801F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21337E31-F855-4C79-BD4E-FE87DFD801F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E4A5B72-514B-4250-A3A6-F826202F9DA5} = {979FE2DE-7166-4D64-9EDB-DEE4194808CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDDD0327-7DCC-4AB5-AE15-D9CA32696153}
+	EndGlobalSection
+EndGlobal

@@ -1,8 +1,8 @@
 ﻿using DistribuidoraMensal;
 using TestaException;
 
-TryCatch.FazTryCatch(FazLogicoFaturamentoMensal, Mock.arrayFaturamentoDistribuidoraMensal);
-static void FazLogicoFaturamentoMensal(DistribuidoraFaturamentoMensal[] array)
+TryCatch.FazTryCatch(FazLogicaFaturamentoMensal, Mock.arrayFaturamentoDistribuidoraMensal);
+static void FazLogicaFaturamentoMensal(DistribuidoraFaturamentoMensal[] array)
 {
     DistribuidoraFaturamentoMensal.CalculaPercentualMensalPorEstado(array);
 }
